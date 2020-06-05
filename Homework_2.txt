@@ -1,0 +1,66 @@
+FOR LOOP
+
+System.out.println("10 20 30 40");
+        for (int x=10; x<=40;x=x+10){
+            System.out.println("x="+x);
+        }
+        System.out.println("100 150 200 250");
+        for (int x=100; x<=250;x=x+50){
+            System.out.println("x="+x);
+        } 
+        System.out.println("40 50 60 70");
+        for (int x=40; x<=70;x=x+10){
+            System.out.println("x="+x);
+        }
+        System.out.println("16 9 4 1");
+        for (int x=4; x>=1;x=x-1){
+            System.out.println("x="+x*x);
+        }
+        System.out.println("250 200 150 100 50");
+        for (int x=250; x>=50;x=x-50){
+            System.out.println("x="+x);
+        }
+        System.out.println("80 70 60 50");
+        for (int x=80; x>=50;x=x-10){
+            System.out.println("x="+x);
+        }
+        System.out.println("9 8 7 6");
+        for (int x=9; x>=6;x=x-1){
+            System.out.println("x="+x);
+        }
+
+
+FOR IF STATEMENT
+
+int math=54;
+        int sci=86;
+        int eng=55;
+        int total=math+sci+eng;
+        int average=total/3;
+        
+          if (math>100) {
+              System.out.println("Incorrect grade math, cannot be more than 100");
+          }else if (math<0) {
+              System.out.println("Incorrect grade math, cannot be less than 0");
+          }if (sci>100) {
+              System.out.println("Incorrect grade sci, cannot be more than 100");
+          }else if (sci<0) {
+              System.out.println("Incorrect grade sci, cannot be less than 0");
+          }if (eng>100) {
+              System.out.println("Incorrect grade eng, cannot be more than 100");
+          }else if (eng<0) {
+              System.out.println("Incorrect grade eng, cannot be less than 0");
+          } if (math<100 && math>0 && sci<100 && sci>0 && eng<100 && eng>0) {
+              System.out.println("Total="+total);
+              System.out.println("Average="+average);
+          }
+
+
+FOR IF STATEMENT 2
+
+ int age=14;
+        if (age>=15) {
+            System.out.println("he can drive");
+        } else {
+            System.out.println("he can't drive");
+        }
